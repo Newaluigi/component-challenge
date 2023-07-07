@@ -1,3 +1,33 @@
+# WCS EXERCISE [ANGULAR 04 - Le Router]
+
+## Result
+
+![Capture d’écran 2023-07-08 012913](https://github.com/Newaluigi/component-challenge/assets/108535805/35709cdd-946a-4911-8f82-c947fdfa28f2)
+
+## Challenge 💪
+Fais-moi naviguer ⛵️
+
+Pour réaliser ce challenge, repars de l'app Angular que tu as créée dans la précédente quête.
+
+Le but de ce challenge est d'afficher un menu pour naviguer entre le composant <sign-up/> et le composant <user-profile/>
+
+- Créer un composant <menu/> qui contiendra deux liens : un vers /signup et l'autre vers /user
+- Créer le routeur avec 3 routes, une sur signup, une sur user et une par défaut qui affiche le composant <user-profile/>
+- Le composant <app/> ne doit contenir que le composant <menu/> et la directive <router-outlet/>
+- Poste le lien vers ton repository en guise de solution.
+
+### Critères de validation ✅
+
+- Le router est implémenté avec la méthode manuelle que tu as étudiée dans cette quête
+- Le composant menu est dans le composant App
+- Les composants <sign-up/> et <user-profile/> ne sont plus dans le composant <app/>
+- La directive RouterOutlet est utilisée dans le composant <app/>
+- Le module RouterModule est correctement configuré pour afficher le composant <sign-up/> lorsqu'on navigue vers /sign-up
+- Le module RouterModule est correctement configuré pour afficher le composant <user-profile/> lorsqu'on navigue vers /user
+- Le module RouterModule est correctement configuré pour afficher le composant <user-profile/> lorsqu'on navigue vers /
+- La navigation entre les composants <sign-up/> et <user-profile/> est fonctionnelle
+<br/>
+
 # WCS EXERCISE [ANGULAR 03.1 - Les Directives]
 
 ## Result
@@ -24,7 +54,7 @@ BONUS : Créer un bouton qui permet, au clic, de changer la valeur de isAdmin.
 ### Critères de validation ✅
 
 - Quand tu changes la valeur de isAdmin: false → true (ou true → false) dans ton code, le rendu doit être différent et correspondre aux points ci-dessus.
-
+<br/>
 
 # WCS EXERCISE [ANGULAR 02 - Le binding]
 
