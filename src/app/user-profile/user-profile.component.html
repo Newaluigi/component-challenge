@@ -1,0 +1,10 @@
+<div class="usercard">
+    <img [src]="user.photo" alt="User Photo">
+    <h2>Informations</h2>
+    <p [hidden]="!user.age">Age: {{ user.age }}</p>
+    <p>Name: {{ user.firstName }} {{ user.name }}</p>
+    <p>{{user.quote}}</p>
+    <h2>Modify</h2>
+    <input id="quote" type="text" [(ngModel)]="user.quote" placeholder="citation">
+    <button (click)="user.age = null">Hide Age</button>
+</div>
