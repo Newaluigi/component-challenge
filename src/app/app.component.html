@@ -1,3 +1,4 @@
+<app-menu></app-menu>
 <div id="tl"><app-block></app-block></div>
 <div id="tr"><app-block></app-block></div>
 <h1 [ngStyle]="{'color': isAdmin ? 'red' : 'black'}">Bonjour !</h1>
@@ -6,6 +7,7 @@
     <button *ngIf="isAdmin">Edit</button>
     <button (click)="toggleAdmin()">Admin</button>
 </div>
-<app-user-profile></app-user-profile>
+<!-- <app-user-profile></app-user-profile> -->
+<router-outlet></router-outlet>
 <div id="bl"><app-block></app-block></div>
 <div id="br"><app-block></app-block></div>
