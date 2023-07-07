@@ -1,3 +1,31 @@
+# WCS EXERCISE [ANGULAR 03.1 - Les Directives]
+
+## Result
+
+![Capture d’écran 2023-07-07 165722](https://github.com/Newaluigi/component-challenge/assets/108535805/d500f5fd-755a-43db-9f4e-12f4e102c033)
+
+## Challenge 💪
+
+Le coup classique !
+Tu réaliseras ce challenge directement dans Codesandbox template angular
+Clique sur fork pour générer un lien associé à ton travail.
+Colle l'url de ton fork pour valider la quête.
+
+Tu peux aussi créer une application Angular via ton terminal et poster le lien Github.
+
+- Ajoute un titre "Bonjour !"
+- Crée deux boutons en HTML : "View" et "Edit" (inutile de leur faire faire quoi que ce soit)
+- Déclare une propriété boolean isAdmin dans ton component (false ou true).
+- Utilise une structural directive pour afficher "Edit" uniquement si isAdmin est à true.
+- Utilise NgClass ou NgStyle pour afficher le titre en rouge quand isAdmin est à true.
+
+BONUS : Créer un bouton qui permet, au clic, de changer la valeur de isAdmin.
+
+### Critères de validation ✅
+
+- Quand tu changes la valeur de isAdmin: false → true (ou true → false) dans ton code, le rendu doit être différent et correspondre aux points ci-dessus.
+
+
 # WCS EXERCISE [ANGULAR 02 - Le binding]
 
 ## Result
