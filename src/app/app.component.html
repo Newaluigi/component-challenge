@@ -1,5 +1,11 @@
 <div id="tl"><app-block></app-block></div>
 <div id="tr"><app-block></app-block></div>
+<h1 [ngStyle]="{'color': isAdmin ? 'red' : 'black'}">Bonjour !</h1>
+<div class="button-container">
+    <button>View</button>
+    <button *ngIf="isAdmin">Edit</button>
+    <button (click)="toggleAdmin()">Admin</button>
+</div>
 <app-user-profile></app-user-profile>
 <div id="bl"><app-block></app-block></div>
 <div id="br"><app-block></app-block></div>
