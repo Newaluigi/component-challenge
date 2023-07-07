@@ -1,8 +1,8 @@
 # WCS EXERCISE [ANGULAR 04 - Le Router]
 
 ## Result
+![Capture d’écran 2023-07-08 013038](https://github.com/Newaluigi/component-challenge/assets/108535805/92bf5f79-0c1d-483a-ad1d-8dd2cf1222e2)
 
-![Capture d’écran 2023-07-08 012913](https://github.com/Newaluigi/component-challenge/assets/108535805/35709cdd-946a-4911-8f82-c947fdfa28f2)
 
 ## Challenge 💪
 Fais-moi naviguer ⛵️
