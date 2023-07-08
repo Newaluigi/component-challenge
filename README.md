@@ -1,6 +1,42 @@
 # WCS EXERCISE [ANGULAR 04 - Le Router]
 
 ## Result
+![Capture d’écran 2023-07-08 220803](https://github.com/Newaluigi/component-challenge/assets/108535805/7296fe54-0e77-4b4d-9774-789d12a7096a)
+![Capture d’écran 2023-07-08 220828](https://github.com/Newaluigi/component-challenge/assets/108535805/7ee0f42b-29a4-461e-8cbd-093a7547f86f)
+
+![Capture d’écran 2023-07-08 200512](https://github.com/Newaluigi/component-challenge/assets/108535805/43d09a00-733f-4d4e-9991-a3246f7c8e16)
+
+## Challenge 💪
+Ton premier formulaire d'inscription 📝
+
+Le but de ce challenge est de faire une page d'inscription. Si tu le fais proprement, tu pourras souvent t'en resservir (donc prends le temps de le faire bien 🙄)
+
+* Tu vas donc créer un composant sign-up qui contiendra un formulaire d'inscription
+* Tu ajouteras ce composant à ton app.component.html
+* Tu penseras bien à importer tout ce dont tu as besoin
+* Ce formulaire aura les champs suivants : email, firstname, lastname, password
+* Tu sais maintenant que, pour chaque formulaire, on doit créer un modèle (une classe User avec chaque champ présent dans le formulaire)
+* Un bouton d'inscription de type "submit"
+* L'affichage du user créé dans la console au moment du click sur le bouton sauvegarde.
+
+### Critères de validation ✅
+
+* firstname de type text qui doit être validé avec required, minlength à 3 et maxlength à 15
+* lastname de type text qui doit être validé avec required, minlength à 3 et maxlength à 15
+* email doit être validé avec required et email
+* Le message d'erreur pour la validation required doit être : "Le * est requis"
+* Avec * = le nom du champ.
+* Par exemple : Le prénom est requis
+* Le message pour la validation de l'email doit être : L'email est invalide
+* Le message pour la validation de maxlength doit être : Le * ne doit pas dépasser 15 caractères.
+* Le message pour la validation de minlength doit être : Le * doit comporter au moins 3 caractères.
+* Les messages d'erreurs doivent être affichés uniquement après l'envoi du formulaire 😈
+<br/>
+
+
+# WCS EXERCISE [ANGULAR 04 - Le Router]
+
+## Result
 ![Capture d’écran 2023-07-08 013038](https://github.com/Newaluigi/component-challenge/assets/108535805/92bf5f79-0c1d-483a-ad1d-8dd2cf1222e2)
 
 
